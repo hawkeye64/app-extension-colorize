@@ -13,7 +13,7 @@ This work is currently in `beta` and there are expected changes while things get
 
 # Info
 
-Colorize and Theme are two mix-ins in this App Extension that allow you provide colorization and theming support for your Quasar apps that use a Vue render functions.
+Colorize and Theme are two mix-ins in this App Extension that allow you provide colorization and theming support for your Quasar apps that use a Vue render function.
 
 # Demo Project (source)
 
