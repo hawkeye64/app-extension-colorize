@@ -1,4 +1,4 @@
-QWindow (@quasar/qwindow)
+Colorize and Theme (@quasar/colorize)
 ===
 
 ![official icon](https://img.shields.io/badge/Quasar%201.0-Official%20UI%20App%20Extension-blue.svg)
