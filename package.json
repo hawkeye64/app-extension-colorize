@@ -1,0 +1,44 @@
+{
+  "name": "@quasar/quasar-app-extension-colorize",
+  "version": "1.0.0-alpha.1",
+  "description": "Quasar color and theme mixins for Vue render functions",
+  "author": "Jeff Galbraith <jeff@quasar.dev>",
+  "license": "MIT",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint --ext .js,.vue src",
+    "lint-fix": "eslint --ext .js,.vue src --fix",
+    "build-demo": "cd ./demo && yarn build && cd .. && cp ./_redirects ./demo/dist/spa && rm -r -f ./docs && cp -r ./demo/dist/spa/. ./docs",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hawkeye64/app-extension-colorize.git"
+  },
+  "bugs": "https://github.com/hawkeye64/app-extension-colorize/issues",
+  "homepage": "https://github.com/hawkeye64/app-extension-colorize",
+  "engines": {
+    "node": ">= 8.9.0",
+    "npm": ">= 5.6.0",
+    "yarn": ">= 1.6.0"
+  },
+  "keywords": [
+    "quasar",
+    "quasar-framework",
+    "vue",
+    "mix-in",
+    "color",
+    "background-color",
+    "theme"
+  ],
+  "devDependencies": {
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.2.2",
+    "eslint-loader": "^3.0.0",
+    "eslint-plugin-vue": "^5.2.3"
+  }
+}
