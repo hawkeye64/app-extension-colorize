@@ -1,7 +1,7 @@
 Colorize & Theme
 ===
 
-Colorize and Theme are Vue Mix-ins for components created for Quasar Framework. They are only for components that use a `render` function. They do not work with template formats found with SFC (single file components).
+Colorize and Theme are Vue Mix-ins for components created with Quasar Framework. They are only for components that use a `render` function. They do not work with template formats found with SFC (single file components).
 
 # Features
 
