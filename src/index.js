@@ -24,8 +24,8 @@ module.exports = function (api) {
   api.compatibleWith('@quasar/app', '^1.0.0')
 
   // register JSON api
-  // api.registerDescribeApi('Colorize', './components/colorize/Colorize.json')
-  // api.registerDescribeApi('Theme', './components/theme/Theme.json')
+  api.registerDescribeApi('Colorize', './components/colorize/Colorize.json')
+  api.registerDescribeApi('Theme', './components/theme/Theme.json')
 
   // extend quasar.conf
   api.extendQuasarConf(extendConf)
