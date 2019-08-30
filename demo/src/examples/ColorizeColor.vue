@@ -30,6 +30,8 @@ const MyComponent = Vue.extend({
 })
 
 export default {
+  name: 'ColorizeColor',
+
   components: {
     MyComponent
   },

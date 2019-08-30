@@ -68,20 +68,6 @@ import { copyHeading, slugify } from '../utils/page-utils'
 export default {
   name: 'ExampleCard',
 
-  components: {
-    ColorizeColor: () => import('../examples/ColorizeColor'),
-    ColorizeBackground: () => import('../examples/ColorizeBackground'),
-    ColorizeBorder: () => import('../examples/ColorizeBorder'),
-    ColorizeBoth: () => import('../examples/ColorizeBoth'),
-    ColorizeColorSelection: () => import('../examples/ColorizeColorSelection'),
-    ColorizeBackgroundSelection: () => import('../examples/ColorizeBackgroundSelection'),
-    ColorizeBorderSelection: () => import('../examples/ColorizeBorderSelection'),
-    ColorizeBothSelection: () => import('../examples/ColorizeBothSelection'),
-    ThemeSimple: () => import('../examples/ThemeSimple'),
-    ThemeSelection: () => import('../examples/ThemeSelection'),
-    ThemeQuasarComponents: () => import('../examples/ThemeQuasarComponents')
-  },
-
   props: {
     title: {
       type: String,
